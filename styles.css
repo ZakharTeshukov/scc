@@ -116,7 +116,7 @@ section h2 {
     width: 100%;
     height: 100%; /* Full height for the section */
     overflow: hidden; /* Prevents any content overflow */
-    min-height: 400px; /* Ensures the section is displayed even if the image is missing */
+    min-height: 100%; /* Ensures the section is displayed even if the image is missing */
 }
 
 .background-image {
@@ -124,7 +124,7 @@ section h2 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Full height of the viewport */
     object-fit: cover; /* Ensures the image covers the section without distortion */
     z-index: 0; /* Places the image behind the content */
 }
